@@ -1,0 +1,88 @@
+[debug] [2022-11-17T01:58:59.978Z] ----------------------------------------------------------------------
+[debug] [2022-11-17T01:58:59.980Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-17T01:58:59.980Z] CLI Version:   11.16.1
+[debug] [2022-11-17T01:58:59.980Z] Platform:      win32
+[debug] [2022-11-17T01:58:59.980Z] Node Version:  v16.17.1
+[debug] [2022-11-17T01:58:59.981Z] Time:          Thu Nov 17 2022 08:58:59 GMT+0700 (Indochina Time)
+[debug] [2022-11-17T01:58:59.982Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-17T01:59:00.051Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-17T01:59:00.051Z] > authorizing via signed-in user (6051071145@st.utc2.edu.vn)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL\FE\Buoi 05\chat
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-17T01:59:15.038Z] Using project from CLI flag: slack-78bb1
+[debug] [2022-11-17T01:59:15.042Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/slack-78bb1 [none]
+[debug] [2022-11-17T01:59:15.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/slack-78bb1 200
+[debug] [2022-11-17T01:59:15.734Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/slack-78bb1 {"projectId":"slack-78bb1","projectNumber":"382706353138","displayName":"slack","name":"projects/slack-78bb1","resources":{"hostingSite":"slack-78bb1","storageBucket":"slack-78bb1.appspot.com","locationId":"asia-southeast1"},"state":"ACTIVE","etag":"1_f28d245f-a3f1-4e88-98c8-46f87c59dce8"}
+[info] i  Using project slack-78bb1 (slack) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-17T02:01:13.915Z] ----------------------------------------------------------------------
+[debug] [2022-11-17T02:01:13.917Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-17T02:01:13.917Z] CLI Version:   11.16.1
+[debug] [2022-11-17T02:01:13.918Z] Platform:      win32
+[debug] [2022-11-17T02:01:13.918Z] Node Version:  v16.17.1
+[debug] [2022-11-17T02:01:13.919Z] Time:          Thu Nov 17 2022 09:01:13 GMT+0700 (Indochina Time)
+[debug] [2022-11-17T02:01:13.919Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-17T02:01:13.983Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-17T02:01:13.984Z] > authorizing via signed-in user (6051071145@st.utc2.edu.vn)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DELL\FE\Buoi 05\chat
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-17T02:01:19.383Z] Using project from CLI flag: slack-78bb1
+[debug] [2022-11-17T02:01:19.388Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/slack-78bb1 [none]
+[debug] [2022-11-17T02:01:20.101Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/slack-78bb1 200
+[debug] [2022-11-17T02:01:20.102Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/slack-78bb1 {"projectId":"slack-78bb1","projectNumber":"382706353138","displayName":"slack","name":"projects/slack-78bb1","resources":{"hostingSite":"slack-78bb1","storageBucket":"slack-78bb1.appspot.com","locationId":"asia-southeast1"},"state":"ACTIVE","etag":"1_f28d245f-a3f1-4e88-98c8-46f87c59dce8"}
+[info] i  Using project slack-78bb1 (slack) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
